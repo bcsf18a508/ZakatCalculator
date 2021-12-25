@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string name="gold_val">Gold Value</string>
+    <string name="silver_val">Silver Value</string>
+    <string name="stocks_val">Stocks Value</string>
+    <string name="cih_and_bank">Cash in Hand/Bank</string>
+    <string name="loans_given">Loans Given</string>
+    <string name="future_use_cash">Future Use Cash</string>
+
+    <string name="borrowed_money">Borrowed Money</string>
+    <string name="taxes_and_bills">Taxes/Bills</string>
+
+    <string name="calculateZakat">Calculate Zakat</string>
+</resources>

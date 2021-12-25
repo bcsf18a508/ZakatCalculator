@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="Assets (Rs.)"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/halogix_green_500"
+                android:textSize="20sp" />
+
+            <!--Gold Value-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/gold_val"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/gold_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <!--Silver Value-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/silver_val"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/silver_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <!--Stocks Value-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/stocks_val"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/stocks_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <!--Cash in Hand and Bank-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/cih_and_bank"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/cih_and_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <!--Loans Given-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/loans_given"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/loans_given"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <!--Cash for Future Use-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/future_use_cash"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/future_use_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="Liabilities (Rs.)"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/halogix_green_500"
+                android:textSize="20sp" />
+
+            !--Borrowed Money-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/borrowed_money"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/borrowed_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            !--Taxes and Bills-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/taxes_and_bills"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/taxes_and_bills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-45dp"
+                android:ems="6"
+                android:inputType="number|numberDecimal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/calc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:onClick="calculateZakat"
+                android:text="@string/calculateZakat" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            !--Footer-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:text="Copyright © 2021 Halogix"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
